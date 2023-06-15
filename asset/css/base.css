@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+    /* フォントサイズ16pxを10pxに */
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    font-family:
+        system-ui,
+        -apple-system,
+        /* Firefox supports this but not yet `system-ui` */
+        'Segoe UI',
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji';
+}
+
+
+/* content__wrapper */
+
+#content__wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#content__wrapper h1{
+    margin: 3rem 0 3rem 0;
+}
+
+/* ペルソナ画面 */
+
+.persona__wrapper{
+    margin: 5rem 0 6rem 0;
+    background-color: beige;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.persona__wrapper h2 {
+    margin: 0 0 1rem 0;
+}
+
+.persona {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.persona__ph {
+    width: 240px;
+    margin-right:60px ;
+}
+
+.persona__ph p.persona__name{
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+
+.persona__profile{
+    width: 660px;
+}
+
+.persona__profile h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.persona__profile p {
+    margin: 0 0 1.6rem 0;
+}
+
+/* your__question */
+
+.your__question,.life__log {
+    margin-bottom: 6rem;
+    background-color: beige;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.your__question h2,.life__log h2 {
+    margin: 0 0 1.6rem 0;
+}
+
+.your__question,.life__log h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.your__question p,.life__log p {
+    margin: 0 0 3.2rem 0;
+}
+
+.your__question ul,.life__log ul {
+    margin-bottom: 3rem;
+}
+
+.your__question li,.life__log li{
+    margin-bottom: 1rem;
+}
+
+.your__question dl,.life__log dl{
+    margin: 0 0 0 0;
+}
+
+.your__question dt,.life__log dt {
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+.your__question dd,.life__log dd {
+    margin-bottom: 2rem;
+}
+/* your__solution */
+
+.your__solution {
+    margin-bottom: 6rem;
+    background-color: beige;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.your__solution h2 {
+    margin: 0 0 1.6rem 0;
+}
+
+.your__solution h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.your__solution p {
+    margin: 0 0 3.2rem 0;
+}
+
+.your__solution ul {
+    margin-bottom: 3rem;
+}
+
+.your__solution li {
+    margin-bottom: 1rem;
+}
+
+/* footer */
+
+
+footer p.copyright{
+        text-align: center;
+margin-bottom: 2rem;
+}
